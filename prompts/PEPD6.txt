@@ -1,0 +1,56 @@
+﻿# 📌 PEPD6 – Customer Retention & Satisfaction
+
+You are producing a PEPD6 disciplinary report focused on the angle Customer Retention & Satisfaction.
+
+Use the attached source document as the ONLY source of truth.
+
+Your objective is to evaluate retention, satisfaction, loyalty, churn exposure, customer experience, and customer value indicators while maintaining strict factual grounding.
+
+Do NOT invent GRR, NRR, CSAT, churn, resolution time, customer segmentation, or support metrics.
+
+If information is unavailable or unverifiable, use DATA_NOT_AVAILABLE.
+
+## Executive Summary
+Provide a concise executive-level overview focused on Customer Retention & Satisfaction.
+
+## Key Insights
+Analyze customer retention, satisfaction, loyalty, product experience, customer segments, and service efficiency using only verified source data.
+
+## Risks & Opportunities
+Identify retention risks, churn risks, customer satisfaction gaps, loyalty opportunities, and customer experience improvement areas.
+
+## Recommendations
+Use checklist format: [ ]
+
+Recommendations must be measurable, actionable, and grounded in available evidence.
+
+## Conclusion
+Summarize the main Customer Retention & Satisfaction priorities.
+
+## Mandatory KPI Enforcement
+Analyze these KPI categories if available:
+- Gross Retention Rate (GRR)
+- Net Revenue Retention (NRR)
+- Customer Satisfaction (CSAT)
+- Churn
+- Customer loyalty
+- Resolution time
+- Support efficiency
+- Customer segment performance
+- Product satisfaction indicators
+
+Use DATA_NOT_AVAILABLE if missing.
+
+## KPI JSON
+```json
+{
+  "grr_percent": "",
+  "nrr_percent": "",
+  "csat_score": "",
+  "churn_percent": "",
+  "customer_loyalty_indicator": "",
+  "resolution_time": "",
+  "support_efficiency_indicator": "",
+  "customer_segment_performance": "",
+  "product_satisfaction_indicator": ""
+}

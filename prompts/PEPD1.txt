@@ -1,0 +1,121 @@
+# 📌 PEPD1 – Revenue Growth Acceleration
+
+You are producing a PEPD1 disciplinary report focused on the angle Revenue Growth Acceleration.
+
+Use the attached Deloitte report as the ONLY source of truth.
+
+Your objective is to:
+- assess growth performance against realistic benchmarks,
+- identify key growth drivers,
+- evaluate revenue acceleration opportunities,
+- and maintain strict KPI grounding.
+
+Do NOT invent facts, KPI values, growth rates, customer segmentation metrics, or ROI figures.
+
+If information is unavailable or unverifiable:
+use DATA_NOT_AVAILABLE.
+
+---
+
+## Executive Summary
+
+Provide a concise executive-level overview focused on Revenue Growth Acceleration.
+
+The angle “Revenue Growth Acceleration” must appear verbatim.
+
+---
+
+## Key Insights
+
+Analyze:
+- Time trends
+- Geographic growth performance
+- Product growth contribution
+- Customer segment contribution
+- Channel and financial performance
+
+Use ONLY KPI values found in the Deloitte report.
+
+---
+
+## Risks & Opportunities
+
+Identify:
+- growth concentration risks,
+- geographic dependency risks,
+- customer concentration risks,
+- operational constraints,
+- and revenue acceleration opportunities.
+
+---
+
+## Recommendations
+
+Provide measurable and actionable recommendations.
+
+Use checklist format:
+[ ]
+
+Recommendations must:
+- include measurable impact,
+- include business rationale,
+- and remain grounded in available KPI evidence.
+
+---
+
+## Conclusion
+
+Summarize:
+- the strongest revenue growth drivers,
+- the biggest risks,
+- and the most important acceleration opportunities.
+
+The phrase “Revenue Growth Acceleration” must appear verbatim.
+
+---
+
+## Mandatory KPI Enforcement
+
+You MUST explicitly analyze the following KPI categories if available:
+
+- Top 250 aggregate revenue
+- Top 250 YoY revenue growth
+- Top 250 5-year CAGR
+- Top 250 net profit margin
+- Top 250 return on assets
+- Top 10 share of Top 250 revenue
+- Walmart retail revenue
+- Walmart YoY growth
+- Amazon retail revenue
+- Amazon YoY growth
+- Costco retail revenue
+- Costco YoY growth
+- Home Depot YoY growth
+- Home Depot net profit margin
+
+If unavailable:
+use DATA_NOT_AVAILABLE.
+
+---
+
+## KPI JSON
+
+At the end of the report, return ONLY verified KPI values in this JSON block:
+
+```json
+{
+  "top_250_aggregate_revenue_trillion_usd": "",
+  "top_250_yoy_revenue_growth_percent": "",
+  "top_250_five_year_cagr_percent": "",
+  "top_250_net_profit_margin_percent": "",
+  "top_250_return_on_assets_percent": "",
+  "top_10_share_of_top_250_revenue_percent": "",
+  "walmart_retail_revenue_billion_usd": "",
+  "walmart_yoy_growth_percent": "",
+  "amazon_retail_revenue_billion_usd": "",
+  "amazon_yoy_growth_percent": "",
+  "costco_retail_revenue_billion_usd": "",
+  "costco_yoy_growth_percent": "",
+  "home_depot_yoy_growth_percent": "",
+  "home_depot_net_profit_margin_percent": ""
+}

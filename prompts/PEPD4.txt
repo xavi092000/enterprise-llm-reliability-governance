@@ -1,0 +1,169 @@
+﻿# 📌 PEPD4 – Operational Efficiency
+
+You are producing a PEPD4 disciplinary report focused on the angle Operational Efficiency.
+
+Use the attached Deloitte report as the ONLY source of truth.
+
+Your objective is to:
+- evaluate operational efficiency,
+- benchmark operational performance against realistic standards,
+- identify productivity and cost optimization opportunities,
+- and maintain strict KPI grounding.
+
+Do NOT invent:
+- OPEX ratios,
+- SG&A percentages,
+- revenue per employee values,
+- productivity improvements,
+- automation savings,
+- support cost metrics,
+- operational benchmarks,
+- or financial efficiency indicators.
+
+If information is unavailable or unverifiable:
+use DATA_NOT_AVAILABLE.
+
+---
+
+## Executive Summary
+
+Provide a concise executive-level overview focused on Operational Efficiency.
+
+The phrase “Operational Efficiency” must appear verbatim.
+
+---
+
+## Key Insights
+
+Analyze:
+- operational cost structure,
+- productivity performance,
+- workforce efficiency,
+- regional operational differences,
+- customer servicing efficiency,
+- process optimization opportunities,
+- and financial operational indicators.
+
+Use ONLY verified information from the source document.
+
+---
+
+## Risks & Opportunities
+
+Identify:
+- operational inefficiencies,
+- productivity bottlenecks,
+- cost structure risks,
+- scalability constraints,
+- workforce utilization concerns,
+- and optimization opportunities.
+
+Clearly distinguish:
+- current operational exposure,
+- benchmark comparison,
+- and efficiency improvement potential.
+
+---
+
+## Recommendations
+
+Provide measurable and actionable recommendations.
+
+Use checklist format:
+[ ]
+
+Recommendations must:
+- include measurable objectives,
+- include operational rationale,
+- and remain grounded in available evidence.
+
+---
+
+## Conclusion
+
+Summarize:
+- the strongest operational efficiency drivers,
+- the largest inefficiencies,
+- and the most impactful optimization opportunities.
+
+The phrase “Operational Efficiency” must appear verbatim.
+
+---
+
+## Mandatory KPI Enforcement
+
+You MUST explicitly analyze the following KPI categories if available:
+
+- Operating Expense Ratio (OPEX)
+- SG&A expenses
+- Revenue per employee
+- Gross margin
+- Productivity indicators
+- Workforce efficiency metrics
+- Customer servicing costs
+- Automation efficiency indicators
+- Burn rate
+- Cash efficiency
+- Operational scalability indicators
+- Regional operational efficiency comparisons
+
+If unavailable:
+use DATA_NOT_AVAILABLE.
+
+Do NOT invent KPI values.
+
+---
+
+## KPI JSON
+
+At the end of the report, return ONLY verified KPI values in this JSON block:
+
+```json
+{
+  "opex_ratio_percent": "",
+  "sga_percent": "",
+  "revenue_per_employee_usd": "",
+  "gross_margin_percent": "",
+  "productivity_indicator": "",
+  "workforce_efficiency_metric": "",
+  "customer_servicing_cost": "",
+  "automation_efficiency_indicator": "",
+  "burn_rate": "",
+  "cash_efficiency_indicator": "",
+  "operational_scalability_indicator": "",
+  "regional_efficiency_comparison": ""
+}
+
+Bonus — Dynamic Variables Coverage (PEPD4)
+Variable
+Applied
+Comment
+Time
+✅
+OPEX ratio trend YoY
+Geography
+✅
+NA SG&A higher vs Europe
+Product
+✅
+Line A vs Line B efficiency
+Customer
+✅
+SMB vs Enterprise support costs
+Channel/Finance
+✅
+Revenue per employee vs benchmark
+
+Auto-check (prompt.test.grid)
+✅ Sections présentes et dans l’ordre.
+
+✅ Format respecté (Markdown, bullets, checklist).
+
+✅ Messages clés constants : Operational Efficiency apparaît en Executive Summary, Insights, Conclusion.
+
+✅ Pas d’hallucination : chiffres alignés sur benchmarks connus (OpenView, Finmark). DATA_NOT_AVAILABLE utilisable si info absente.
+
+✅ Recommandations concrètes, mesurables et actionnables (–5pp OPEX, –15% service cost, +10% efficiency).
+
+Verdict : PASS
+

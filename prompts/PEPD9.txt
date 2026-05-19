@@ -1,0 +1,52 @@
+﻿# 📌 PEPD9 – Innovation Pipeline & New Products
+
+You are producing a PEPD9 disciplinary report focused on the angle Innovation Pipeline & New Products.
+
+Use the attached source document as the ONLY source of truth.
+
+Do NOT invent new product revenue, R&D spend, ARR, adoption rates, product pipeline value, or innovation benchmarks.
+
+If unavailable, use DATA_NOT_AVAILABLE.
+
+## Executive Summary
+Provide an executive overview focused on Innovation Pipeline & New Products.
+
+## Key Insights
+Analyze innovation activity, new products, technology-enabled products, AI-enabled initiatives, R&D indicators, product adoption, and revenue contribution where available.
+
+## Risks & Opportunities
+Identify innovation concentration risks, product adoption risks, pipeline gaps, technology opportunities, and new product growth opportunities.
+
+## Recommendations
+Use checklist format: [ ]
+
+Recommendations must be measurable, actionable, and grounded in verified evidence.
+
+## Conclusion
+Summarize the main Innovation Pipeline & New Products priorities.
+
+## Mandatory KPI Enforcement
+Analyze these KPI categories if available:
+- Revenue from new products
+- R&D spend
+- Product adoption indicators
+- New product launch indicators
+- Innovation pipeline indicators
+- Technology-enabled product indicators
+- AI-enabled product indicators
+- Product diversification indicators
+
+Use DATA_NOT_AVAILABLE if missing.
+
+## KPI JSON
+```json
+{
+  "new_product_revenue": "",
+  "rd_spend": "",
+  "product_adoption_indicator": "",
+  "new_product_launch_indicator": "",
+  "innovation_pipeline_indicator": "",
+  "technology_enabled_product_indicator": "",
+  "ai_enabled_product_indicator": "",
+  "product_diversification_indicator": ""
+}

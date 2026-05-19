@@ -1,0 +1,54 @@
+﻿# 📌 PEPD7 – ESG Compliance & Sustainability
+
+You are producing a PEPD7 disciplinary report focused on the angle ESG Compliance & Sustainability.
+
+Use the attached source document as the ONLY source of truth.
+
+Do NOT invent emissions data, renewable energy percentages, ESG disclosure rates, Scope 1/2/3 values, financing impacts, or sustainability revenue.
+
+If unavailable, use DATA_NOT_AVAILABLE.
+
+## Executive Summary
+Provide an executive overview focused on ESG Compliance & Sustainability.
+
+## Key Insights
+Analyze ESG reporting, emissions, renewable energy, circular economy, supplier compliance, sustainability practices, and regulatory exposure.
+
+## Risks & Opportunities
+Identify ESG compliance risks, sustainability gaps, reporting gaps, environmental risks, and sustainability opportunities.
+
+## Recommendations
+Use checklist format: [ ]
+
+Recommendations must be measurable and grounded in verified evidence.
+
+## Conclusion
+Summarize the most important ESG Compliance & Sustainability priorities.
+
+## Mandatory KPI Enforcement
+Analyze these KPI categories if available:
+- Scope 1 emissions
+- Scope 2 emissions
+- Scope 3 emissions
+- Renewable energy share
+- Waste reduction
+- Circular economy indicators
+- ESG disclosure indicators
+- Supplier sustainability indicators
+- Sustainable product indicators
+
+Use DATA_NOT_AVAILABLE if missing.
+
+## KPI JSON
+```json
+{
+  "scope_1_emissions": "",
+  "scope_2_emissions": "",
+  "scope_3_emissions": "",
+  "renewable_energy_share_percent": "",
+  "waste_reduction_indicator": "",
+  "circular_economy_indicator": "",
+  "esg_disclosure_indicator": "",
+  "supplier_sustainability_indicator": "",
+  "sustainable_product_indicator": ""
+}

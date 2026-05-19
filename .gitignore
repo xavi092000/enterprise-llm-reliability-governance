@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+results/raw_outputs.json
+results/judged_results.json
+results/offline_quality_report.json
+results/source_coverage_results.json
+*.pdf

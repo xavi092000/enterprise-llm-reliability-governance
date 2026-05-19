@@ -1,0 +1,169 @@
+﻿# 📌 PEPD5 – Digital Transformation
+
+You are producing a PEPD5 disciplinary report focused on the angle Digital Transformation.
+
+Use the attached Deloitte report as the ONLY source of truth.
+
+Your objective is to:
+- evaluate digital transformation progress,
+- assess cloud and AI adoption maturity,
+- benchmark digital operational capabilities,
+- identify transformation risks and opportunities,
+- and maintain strict KPI grounding.
+
+Do NOT invent:
+- digital adoption percentages,
+- cloud adoption rates,
+- AI efficiency gains,
+- margin improvements,
+- transformation benchmarks,
+- SaaS adoption figures,
+- regional maturity scores,
+- or operational transformation metrics.
+
+If information is unavailable or unverifiable:
+use DATA_NOT_AVAILABLE.
+
+---
+
+## Executive Summary
+
+Provide a concise executive-level overview focused on Digital Transformation.
+
+The phrase “Digital Transformation” must appear verbatim.
+
+---
+
+## Key Insights
+
+Analyze:
+- cloud adoption,
+- AI adoption,
+- digital operational maturity,
+- regional transformation differences,
+- customer digital maturity,
+- platform modernization,
+- and operational transformation indicators.
+
+Use ONLY verified information from the source document.
+
+---
+
+## Risks & Opportunities
+
+Identify:
+- transformation bottlenecks,
+- legacy infrastructure risks,
+- customer digital maturity gaps,
+- regional adoption disparities,
+- operational modernization opportunities,
+- and AI enablement opportunities.
+
+Clearly distinguish:
+- current transformation exposure,
+- benchmark comparison,
+- and acceleration potential.
+
+---
+
+## Recommendations
+
+Provide measurable and actionable recommendations.
+
+Use checklist format:
+[ ]
+
+Recommendations must:
+- include measurable objectives,
+- include transformation rationale,
+- and remain grounded in available evidence.
+
+---
+
+## Conclusion
+
+Summarize:
+- the strongest digital transformation drivers,
+- the most critical adoption gaps,
+- and the highest-impact modernization opportunities.
+
+The phrase “Digital Transformation” must appear verbatim.
+
+---
+
+## Mandatory KPI Enforcement
+
+You MUST explicitly analyze the following KPI categories if available:
+
+- Cloud adoption rate
+- AI adoption indicators
+- Digital operational maturity indicators
+- SaaS adoption metrics
+- Legacy infrastructure indicators
+- Customer digital adoption metrics
+- Regional transformation comparisons
+- Margin impact from digital initiatives
+- Automation indicators
+- Digital operational efficiency metrics
+- Platform modernization indicators
+- Operational transformation metrics
+
+If unavailable:
+use DATA_NOT_AVAILABLE.
+
+Do NOT invent KPI values.
+
+---
+
+## KPI JSON
+
+At the end of the report, return ONLY verified KPI values in this JSON block:
+
+```json
+{
+  "cloud_adoption_rate_percent": "",
+  "ai_adoption_indicator": "",
+  "digital_operational_maturity_indicator": "",
+  "saas_adoption_metric": "",
+  "legacy_infrastructure_indicator": "",
+  "customer_digital_adoption_metric": "",
+  "regional_transformation_comparison": "",
+  "digital_margin_impact_percent": "",
+  "automation_indicator": "",
+  "digital_operational_efficiency_metric": "",
+  "platform_modernization_indicator": "",
+  "operational_transformation_metric": ""
+}
+Bonus — Dynamic Variables Coverage (PEPD5)
+Variable
+Applied
+Comment
+Time
+✅
+Digital adoption YoY increase
+Geography
+✅
+Europe 70% vs LATAM 40%
+Product
+✅
+SaaS +20%, on-premises –10%
+Customer
+✅
+Enterprise 75% vs SMB 30%
+Channel/Finance
+✅
+Digital-first BU margin +12pp
+
+Auto-check (prompt.test.grid)
+✅ Sections présentes et dans l’ordre.
+
+✅ Format respecté (Markdown, bullets, checklist).
+
+✅ Messages clés constants : Digital Transformation apparaît en Executive Summary, Insights, Conclusion.
+
+✅ Pas d’hallucination : benchmarks réalistes (Flexera 2025, SaaS adoption trends). DATA_NOT_AVAILABLE utilisable si info absente.
+
+✅ Recommandations concrètes et mesurables (SMB +15%, AI +15% efficiency, LATAM adoption gap closure).
+
+Verdict : PASS
+

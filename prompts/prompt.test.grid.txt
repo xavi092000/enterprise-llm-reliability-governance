@@ -1,0 +1,17 @@
+📌 Prompt transversal  – prompt.test.grid
+Rôle : grille de 5 critères pour évaluer la fiabilité d’un prompt business.
+Critères :
+Sections présentes et dans l’ordre
+
+Format respecté (titres, bullet points, métriques)
+
+Messages clés constants run après run
+
+Pas d’hallucinations
+
+Suggestions concrètes et actionnables
+
+Règle :
+Chaque test sort un verdict PASS/FAIL.
+
+Un prompt est fiable si ≥ 8/10 tests donnent PASS.

@@ -1,0 +1,78 @@
+﻿# 📌 PEPD11 – Scenario-based Analysis (What-if Parameters)
+
+You are producing a PEPD11 disciplinary report focused on the angle Scenario-based Analysis (What-if Parameters).
+
+Use the attached source document as the ONLY source of truth.
+
+Your task is to build baseline, optimistic, and pessimistic scenarios using only verified source evidence.
+
+Do NOT invent baseline values, scenario impacts, churn values, ROI values, OPEX values, free cash flow values, or liquidity values.
+
+If exact scenario data is unavailable, use DATA_NOT_AVAILABLE and clearly explain what evidence would be needed.
+
+## Executive Summary
+Provide an executive overview focused on Scenario-based Analysis (What-if Parameters).
+
+## Key Insights
+Analyze scenario sensitivity across these five levers:
+1. Revenue Growth
+2. Customer Retention
+3. Marketing / Expansion Investment
+4. Operational Efficiency
+5. Cash Flow / Liquidity
+
+Use only verified source data.
+
+## Scenario Table
+Create a 5x3 scenario table:
+- Baseline
+- Optimistic
+- Pessimistic
+
+If data is unavailable, use DATA_NOT_AVAILABLE.
+
+## Risks & Opportunities
+Identify scenario risks, upside opportunities, downside exposure, and sensitivity drivers.
+
+## Recommendations
+Use checklist format: [ ]
+
+Recommendations must be tied to scenario evidence and measurable where possible.
+
+## Conclusion
+Summarize the most important Scenario-based Analysis (What-if Parameters) findings.
+
+## Mandatory KPI Enforcement
+Analyze these KPI categories if available:
+- Revenue growth
+- Retention indicators
+- Marketing or expansion investment
+- Operational efficiency
+- Cash flow
+- Liquidity
+- Net profit margin
+- Return on assets
+- Growth concentration indicators
+- Downside sensitivity indicators
+
+Use DATA_NOT_AVAILABLE if missing.
+
+## KPI JSON
+```json
+{
+  "revenue_growth_baseline": "",
+  "revenue_growth_optimistic": "",
+  "revenue_growth_pessimistic": "",
+  "retention_baseline": "",
+  "retention_optimistic": "",
+  "retention_pessimistic": "",
+  "marketing_expansion_baseline": "",
+  "marketing_expansion_optimistic": "",
+  "marketing_expansion_pessimistic": "",
+  "operational_efficiency_baseline": "",
+  "operational_efficiency_optimistic": "",
+  "operational_efficiency_pessimistic": "",
+  "cash_flow_liquidity_baseline": "",
+  "cash_flow_liquidity_optimistic": "",
+  "cash_flow_liquidity_pessimistic": ""
+}

@@ -1,0 +1,54 @@
+﻿# 📌 PEPD8 – Global Expansion & Diversification
+
+You are producing a PEPD8 disciplinary report focused on the angle Global Expansion & Diversification.
+
+Use the attached source document as the ONLY source of truth.
+
+Do NOT invent international revenue share, regional growth, ROI, localization metrics, HHI, customer mix, or geographic concentration values.
+
+If unavailable, use DATA_NOT_AVAILABLE.
+
+## Executive Summary
+Provide an executive overview focused on Global Expansion & Diversification.
+
+## Key Insights
+Analyze international footprint, geographic diversification, regional growth, foreign operations, market concentration, and expansion strategy.
+
+## Risks & Opportunities
+Identify geographic concentration risks, market dependency risks, expansion opportunities, diversification opportunities, and localization gaps.
+
+## Recommendations
+Use checklist format: [ ]
+
+Recommendations must be measurable, actionable, and grounded in verified evidence.
+
+## Conclusion
+Summarize the main Global Expansion & Diversification priorities.
+
+## Mandatory KPI Enforcement
+Analyze these KPI categories if available:
+- International revenue share
+- Foreign operations revenue
+- Number of countries of operation
+- Regional growth
+- Geographic concentration
+- Market diversification
+- Localization indicators
+- Product diversification by geography
+- Customer diversification by geography
+
+Use DATA_NOT_AVAILABLE if missing.
+
+## KPI JSON
+```json
+{
+  "international_revenue_share_percent": "",
+  "foreign_operations_revenue": "",
+  "countries_of_operation": "",
+  "regional_growth_indicator": "",
+  "geographic_concentration_indicator": "",
+  "market_diversification_indicator": "",
+  "localization_indicator": "",
+  "product_diversification_by_geography": "",
+  "customer_diversification_by_geography": ""
+}

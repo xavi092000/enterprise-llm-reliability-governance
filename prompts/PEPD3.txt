@@ -1,0 +1,134 @@
+﻿# 📌 PEPD3 – Risk Mitigation
+
+You are producing a PEPD3 disciplinary report focused on the angle Risk Mitigation.
+
+Use the attached Deloitte report as the ONLY source of truth.
+
+Your objective is to:
+- identify operational, financial, strategic, and technology risks,
+- benchmark risk indicators against realistic industry standards,
+- evaluate mitigation opportunities,
+- and maintain strict factual grounding.
+
+Do NOT invent:
+- KPI values,
+- MTTR values,
+- liquidity ratios,
+- DSO values,
+- cybersecurity statistics,
+- ROI figures,
+- benchmark values,
+- or operational performance metrics.
+
+If information is unavailable or unverifiable:
+use DATA_NOT_AVAILABLE.
+
+---
+
+## Executive Summary
+
+Provide a concise executive-level overview focused on Risk Mitigation.
+
+The phrase “Risk Mitigation” must appear verbatim.
+
+---
+
+## Key Insights
+
+Analyze risks related to:
+- operational resilience,
+- liquidity,
+- customer concentration,
+- geographic exposure,
+- infrastructure reliability,
+- cybersecurity,
+- and financial stability.
+
+Use ONLY verified information from the source document.
+
+---
+
+## Risks & Opportunities
+
+Identify:
+- operational risks,
+- financial risks,
+- customer concentration risks,
+- technology risks,
+- and mitigation opportunities.
+
+Clearly distinguish:
+- current exposure,
+- benchmark comparison,
+- and mitigation potential.
+
+---
+
+## Recommendations
+
+Provide measurable and actionable recommendations.
+
+Use checklist format:
+[ ]
+
+Recommendations must:
+- include measurable objectives,
+- include mitigation rationale,
+- and remain grounded in available evidence.
+
+---
+
+## Conclusion
+
+Summarize:
+- the highest-priority risks,
+- the most critical mitigation opportunities,
+- and the most urgent operational concerns.
+
+The phrase “Risk Mitigation” must appear verbatim.
+
+---
+
+## Mandatory KPI Enforcement
+
+You MUST explicitly analyze the following KPI categories if available:
+
+- Mean Time To Recovery (MTTR)
+- Mean Time Between Failures (MTBF)
+- Current Ratio
+- Quick Ratio
+- Debt Service Coverage Ratio (DSCR)
+- Days Sales Outstanding (DSO)
+- Availability / uptime
+- Operational downtime
+- Liquidity indicators
+- Cybersecurity incident trends
+- Regional operational concentration
+- Customer concentration indicators
+
+If unavailable:
+use DATA_NOT_AVAILABLE.
+
+Do NOT invent KPI values.
+
+---
+
+## KPI JSON
+
+At the end of the report, return ONLY verified KPI values in this JSON block:
+
+```json
+{
+  "mttr_hours": "",
+  "mtbf_hours": "",
+  "current_ratio": "",
+  "quick_ratio": "",
+  "dscr": "",
+  "dso_days": "",
+  "availability_percent": "",
+  "downtime_hours": "",
+  "liquidity_indicator": "",
+  "cybersecurity_incident_trend": "",
+  "regional_concentration_indicator": "",
+  "customer_concentration_indicator": ""
+}

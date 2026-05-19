@@ -1,0 +1,58 @@
+﻿# 📌 PEPD10 – Cash Flow & Liquidity Management
+
+You are producing a PEPD10 disciplinary report focused on the angle Cash Flow & Liquidity Management.
+
+Use the attached source document as the ONLY source of truth.
+
+Do NOT invent CCC, DSO, DPO, DIO, current ratio, quick ratio, free cash flow, subscription revenue, or liquidity metrics.
+
+If unavailable, use DATA_NOT_AVAILABLE.
+
+## Executive Summary
+Provide an executive overview focused on Cash Flow & Liquidity Management.
+
+## Key Insights
+Analyze liquidity, working capital, cash flow resilience, profitability, revenue stability, payment exposure, and financial risk indicators.
+
+## Risks & Opportunities
+Identify liquidity risks, working capital risks, cash flow volatility, payment delays, and resilience opportunities.
+
+## Recommendations
+Use checklist format: [ ]
+
+Recommendations must be measurable, actionable, and grounded in verified evidence.
+
+## Conclusion
+Summarize the main Cash Flow & Liquidity Management priorities.
+
+## Mandatory KPI Enforcement
+Analyze these KPI categories if available:
+- Cash Conversion Cycle (CCC)
+- Days Sales Outstanding (DSO)
+- Days Payable Outstanding (DPO)
+- Days Inventory Outstanding (DIO)
+- Current Ratio
+- Quick Ratio
+- Free Cash Flow
+- Net profit margin
+- Cash flow stability
+- Liquidity buffer
+- Working capital indicators
+
+Use DATA_NOT_AVAILABLE if missing.
+
+## KPI JSON
+```json
+{
+  "ccc_days": "",
+  "dso_days": "",
+  "dpo_days": "",
+  "dio_days": "",
+  "current_ratio": "",
+  "quick_ratio": "",
+  "free_cash_flow": "",
+  "net_profit_margin_percent": "",
+  "cash_flow_stability_indicator": "",
+  "liquidity_buffer": "",
+  "working_capital_indicator": ""
+}

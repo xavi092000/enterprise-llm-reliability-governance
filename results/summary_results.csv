@@ -1,0 +1,37 @@
+prompt_name,run_number,sections_score,angle,angle_pass,has_kpis,has_actionable_recommendations,data_not_available_count,hallucination_marker_pass,final_score,verdict
+PEPD1,1,1.0,Revenue Growth Acceleration,True,True,True,0,True,1.0,PASS
+PEPD1,2,1.0,Revenue Growth Acceleration,True,True,True,0,True,1.0,PASS
+PEPD1,3,1.0,Revenue Growth Acceleration,True,True,True,1,True,1.0,PASS
+PEPD10,1,1.0,Revenue Growth Acceleration,False,True,True,20,True,0.8,PASS
+PEPD10,2,1.0,Revenue Growth Acceleration,False,True,True,20,True,0.8,PASS
+PEPD10,3,1.0,Revenue Growth Acceleration,False,True,True,20,True,0.8,PASS
+PEPD11,1,1.0,Revenue Growth Acceleration,False,True,True,3,True,0.8,PASS
+PEPD11,2,1.0,Revenue Growth Acceleration,False,True,True,8,True,0.8,PASS
+PEPD11,3,1.0,Revenue Growth Acceleration,False,True,True,5,True,0.8,PASS
+PEPD3,1,1.0,Risk Mitigation,True,True,True,27,True,1.0,PASS
+PEPD3,2,1.0,Risk Mitigation,True,True,True,29,True,1.0,PASS
+PEPD3,3,1.0,Risk Mitigation,True,True,True,22,True,1.0,PASS
+PEPD4,1,1.0,Operational Efficiency,True,True,True,13,True,1.0,PASS
+PEPD4,2,1.0,Operational Efficiency,True,True,True,14,True,1.0,PASS
+PEPD4,3,1.0,Operational Efficiency,True,True,True,10,True,1.0,PASS
+PEPD5,1,1.0,Digital Transformation,True,True,True,8,True,1.0,PASS
+PEPD5,2,1.0,Digital Transformation,True,True,True,15,True,1.0,PASS
+PEPD5,3,1.0,Digital Transformation,True,True,True,17,True,1.0,PASS
+PEPD6,1,1.0,Customer Retention & Satisfaction,True,True,True,14,True,1.0,PASS
+PEPD6,2,1.0,Customer Retention & Satisfaction,True,True,True,8,True,1.0,PASS
+PEPD6,3,1.0,Customer Retention & Satisfaction,True,True,True,10,True,1.0,PASS
+PEPD7,1,1.0,ESG Compliance & Sustainability,True,True,True,8,True,1.0,PASS
+PEPD7,2,1.0,ESG Compliance & Sustainability,True,True,True,8,True,1.0,PASS
+PEPD7,3,1.0,ESG Compliance & Sustainability,True,True,True,8,True,1.0,PASS
+PEPD8,1,1.0,Global Expansion & Diversification,True,True,True,2,True,1.0,PASS
+PEPD8,2,1.0,Global Expansion & Diversification,True,True,True,2,True,1.0,PASS
+PEPD8,3,1.0,Global Expansion & Diversification,True,True,True,2,True,1.0,PASS
+PEPD9,1,1.0,Innovation Pipeline & New Products,True,True,True,6,True,1.0,PASS
+PEPD9,2,1.0,Innovation Pipeline & New Products,True,True,True,8,True,1.0,PASS
+PEPD9,3,1.0,Innovation Pipeline & New Products,True,True,True,8,True,1.0,PASS
+PEPS,1,0.0,ROI Benchmark Superiority,True,True,True,5,True,0.8,PASS
+PEPS,2,0.0,ROI Benchmark Superiority,True,True,True,5,True,0.8,PASS
+PEPS,3,0.0,ROI Benchmark Superiority,True,True,True,6,True,0.8,PASS
+prompt.test.grid,1,0.0,UNKNOWN,True,True,False,0,True,0.6,FAIL
+prompt.test.grid,2,0.0,UNKNOWN,True,False,False,2,True,0.4,FAIL
+prompt.test.grid,3,0.0,UNKNOWN,True,True,False,0,True,0.6,FAIL
