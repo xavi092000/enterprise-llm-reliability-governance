@@ -10,3 +10,7 @@ Main documentation:
 
 \- \[Prompt Engineering Hardening Standards](docs/PROMPT\_ENGINEERING\_HARDENING\_V1.md)
 
+\- \[Prompt\_methodology.md
+
+
+
